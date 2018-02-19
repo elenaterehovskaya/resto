@@ -34,14 +34,12 @@ body {
   min-width: 1120px;
   margin: 0;
   padding: 0;
-  
+
   font-weight: 400;
   font-size: 16px;
   font-family: "Aleo", "Georgia", "Times New Roman", serif;
   letter-spacing: 0.5px;
   color: #555555;
-  
-  /* background: url(../img/resto.jpg) no-repeat 50% 0; */
 }
 
 a {
@@ -59,15 +57,15 @@ img {
 
 .visually-hidden {
   position: absolute;
-  
+
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
-  
+
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -78,7 +76,7 @@ img {
   height: 110px;
   margin: 0 auto;
   padding: 0 10px;
-  
+
   font-size: 14px;
   letter-spacing: 0.7px;
 }
@@ -94,7 +92,7 @@ img {
   margin: 0;
   margin-left: auto;
   padding: 0;
-  
+
   list-style: none;
 }
 
@@ -107,15 +105,15 @@ img {
 .page-navigation a:focus,
 .page-navigation a:not([href]) {
   padding-bottom: 5px;
-  
+
   color: #f34949;
-  
+
   border-bottom: 1px solid #f34949;
 }
 
 .page-navigation a:active {
   color: rgba(59, 59, 59, 0.6);
-  
+
   border-bottom: inherit;
 }
 
@@ -123,7 +121,7 @@ img {
   max-width: 1500px;
   height: 570px;
   margin: 0 auto;
-  
+
   background: #3f3f3f url(../img/billboard.jpg) no-repeat 0 0;
   box-shadow: 0 4px 0 #f34949;
 }
@@ -136,9 +134,9 @@ img {
 
 .billboard-resto p {
   position: relative;
-  
+
   margin: 0;
-  
+
   line-height: 44px;
   text-align: center;
   letter-spacing: 0.6px;
@@ -151,11 +149,11 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  
+
   width: 40px;
   height: 1px;
   margin-left: -240px;
-  
+
   background-color: #ffffff;
 }
 
@@ -172,13 +170,13 @@ img {
   height: 75px;
   margin: 0;
   margin-bottom: 80px;
-  
+
   font-weight: 700;
   font-size: 20px;
   line-height: 64px;
   text-align: center;
   color: #ffffff;
-  
+
   background: url(../img/menu-shape.png) no-repeat 50% 0;
 }
 
@@ -186,10 +184,10 @@ img {
   margin: 0;
   margin-bottom: 30px;
   padding: 0;
-  
+
   column-count: 2;
   column-gap: 110px;
-  
+
   list-style: none;
 }
 
@@ -199,14 +197,14 @@ img {
   flex-wrap: wrap;
   width: 495px;
   margin-bottom: 55px;
-  
+
   letter-spacing: 0.8px;
 }
 
 .menu-item a {
   padding-right: 45px;
   color: #555555;
-  
+
   background-color: #ffffff;
 }
 
@@ -225,17 +223,17 @@ img {
   top: 50%;
   right: 70px;
   z-index: -1;
-  
+
   width: 220px;
   height: 1px;
-  
+
   background-color: #e3e1e1;
 }
 
 .menu-item p {
   width: 100%;
   margin: 0;
-  
+
   font-weight: 300;
   font-style: italic;
   font-size: 12px;
@@ -245,26 +243,26 @@ img {
 
 .button-menu {
   position: relative;
-  
+
   display: block;
   width: 105px;
   margin: 0 auto;
   margin-bottom: 175px;
   padding: 7px 15px;
-  
+
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 1px;
   color: #b7b7b7;
-  
+
   border: 1px solid #d7d5d5;
 }
 
 .button-menu:hover,
 .button-menu:focus {
   color: #f34949;
-  
+
   border: 1px solid #f34949;
 }
 
@@ -273,10 +271,10 @@ img {
   position: absolute;
   top: 33%;
   left: 100px;
-  
+
   width: 1px;
   height: 12px;
-  
+
   background-color: #b7b7b7;
 }
 
@@ -290,13 +288,13 @@ img {
   position: absolute;
   top: 33%;
   right: 12px;
-  
+
   width: 6px;
   height: 6px;
-  
+
   border-left: 2px solid #b7b7b7;
   border-bottom: 2px solid #b7b7b7;
-  
+
   transform: rotate(-45deg);
 }
 
@@ -325,7 +323,7 @@ img {
   position: relative;
   margin: 0;
   margin-bottom: 60px;
-  
+
   font-weight: 700;
   font-size: 20px;
   line-height: 60px;
@@ -338,10 +336,10 @@ img {
   position: absolute;
   top: 50%;
   left: 210px;
-  
+
   width: 200px;
   height: 1px;
-  
+
   background-color: #e3e1e1;
 }
 
@@ -350,10 +348,10 @@ img {
   position: absolute;
   top: 40%;
   right: 0;
-  
+
   width: 70px;
   height: 10px;
-  
+
   background: url(../img/resto-dishes-nav.png) no-repeat 0 0;
   cursor: pointer;
 }
@@ -364,7 +362,7 @@ img {
   align-items: flex-start;
   margin: 0;
   padding: 0;
-  
+
   list-style: none;
 }
 
@@ -373,7 +371,7 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 230px;
-  
+
   letter-spacing: 1px;
   color: #555555;
 }
@@ -393,10 +391,10 @@ img {
   position: absolute;
   top: 30px;
   right: 150px;
-  
+
   width: 80px;
   height: 13px;
-  
+
   background: url(../img/resto-dishes-stars.png) no-repeat 0 0;
   cursor: pointer;
 }
@@ -420,7 +418,7 @@ img {
   position: relative;
   margin: 0;
   margin-bottom: 58px;
-  
+
   font-weight: 700;
   font-size: 22px;
   line-height: 60px;
@@ -434,17 +432,17 @@ img {
   position: absolute;
   top: 50%;
   left: 175px;
-  
+
   width: 200px;
   height: 1px;
-  
+
   background-color: #e3e1e1;
 }
 
 .gallery-photo {
   display: flex;
   align-items: flex-start;
-  
+
   font-size: 0;
 }
 
@@ -453,8 +451,8 @@ img {
   flex-wrap: wrap;
   width: 734px;
   padding: 0;
-  
-  list-style: none; 
+
+  list-style: none;
 }
 
 .inner-page h1 {
@@ -462,13 +460,13 @@ img {
   height: 75px;
   margin: 0 auto;
   margin-bottom: 40px;
-  
+
   font-weight: 700;
   font-size: 20px;
   line-height: 64px;
   text-align: center;
   color: #ffffff;
-  
+
   background: url(../img/menu-shape.png) no-repeat 50% 0;
   border-top: 4px solid #f34949;
 }
@@ -480,16 +478,16 @@ img {
 
 .full-menu-resto h2 {
   position: relative;
-  margin: 0; 
+  margin: 0;
   margin-bottom: 60px;
-  
+
   font-weight: 700;
   font-size: 20px;
   line-height: 40px;
   letter-spacing: 1px;
   color: #f34949;
   text-transform: uppercase;
-  
+
   border-bottom: 1px solid #e3e1e1;
 }
 
@@ -509,14 +507,14 @@ img {
   height: 230px;
   margin: 0 auto;
   padding-top: 90px;
-  
+
   color: #ffffff;
 }
 
 .footer-address {
   width: 230px;
   margin: 0;
-  
+
   font-weight: 300;
   line-height: 30px;
   letter-spacing: 1px;
@@ -536,8 +534,8 @@ img {
   width: 230px;
   margin: 0;
   padding: 0;
-  
-  list-style: none; 
+
+  list-style: none;
 }
 
 .footer-links a {
@@ -563,7 +561,7 @@ img {
 
 .footer-copyright p {
   margin: 0;
-  
+
   font-weight: 300;
   font-size: 14px;
   line-height: 30px;
