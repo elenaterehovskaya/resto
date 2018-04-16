@@ -5,7 +5,7 @@
 
 ---
 
-#### Главная страница для ресторана <a href="https://elenaterehovskaya.github.io/resto" target="_blank">https://elenaterehovskaya.github.io/resto</a>
+#### Главная страница для ресторана: <a href="https://elenaterehovskaya.github.io/resto" target="_blank">https://elenaterehovskaya.github.io/resto</a>
 
 ####
 
@@ -15,4 +15,4 @@
 
 ---
 
-Макеты для тренировки. Полезная рассылка [HTML Academy](https://htmlacademy.ru).
+Макеты для тренировки. Полезная рассылка №45 [HTML Academy](https://htmlacademy.ru).
