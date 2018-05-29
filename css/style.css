@@ -388,21 +388,38 @@ img {
   transform: scale(1.15);
 }
 
-.dishes__item span {
-  position: relative;
+.dishes__rating {
+  display: flex;
+  width: 100%;
 }
 
-.dishes__item span::after {
-  content: "";
-  position: absolute;
-  top: 30px;
-  right: 150px;
+.dishes__rating input + label {
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-top: 10px;
+  margin-right: 5px;
 
-  width: 80px;
-  height: 13px;
+  font-size: 0;
 
-  background: url("../img/resto-dishes-stars.png") no-repeat 0 0;
+  background: url("../img/rating-star-fill.svg") no-repeat center;
   cursor: pointer;
+}
+
+.dishes__rating label:hover ~ label,
+.dishes__rating:not(:hover) input:invalid + label,
+.dishes__rating:not(:hover) input:checked + label ~ label {
+  background: url("../img/rating-star.svg") no-repeat center / contain,
+  url("../img/rating-star-fill.svg") no-repeat center / 0 0; /* небольшой приём для предзагрузки изображения */
+}
+
+.dishes__rating input + label:hover,
+.dishes__rating:not(:hover) input:focus + label {
+  background: url("../img/rating-star-fill.svg") no-repeat center;
+}
+
+.dishes__link:nth-child(5):focus .dishes__link {
+  transform: translateX(-870px);
 }
 
 .slider__controls {
