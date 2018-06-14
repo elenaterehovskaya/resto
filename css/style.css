@@ -475,18 +475,12 @@ img {
 .dishes__rating:not(:hover) input:invalid + label,
 .dishes__rating:not(:hover) input:checked + label ~ label {
   background: url("../img/rating-star.svg") no-repeat center / contain,
-  url("../img/rating-star-fill.svg") no-repeat center / 0 0; /* небольшой приём для предзагрузки изображения */
+  url("../img/rating-star-fill.svg") no-repeat center / 0 0;
 }
 
 .dishes__rating input + label:hover,
 .dishes__rating:not(:hover) input:focus + label {
   background: url("../img/rating-star-fill.svg") no-repeat center;
-}
-
-.dishes__link:nth-child(5):focus .dishes__link {
-  -webkit-transform: translateX(-870px);
-  -ms-transform: translateX(-870px);
-  transform: translateX(-870px);
 }
 
 .slider__controls {
