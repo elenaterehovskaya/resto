@@ -17,9 +17,9 @@
 
 ---
 
-<p>
-  <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/resto.jpg" width="350" alt="Главная страница">
-</p>
+<a href="https://elenaterehovskaya.github.io/resto" target="_blank">
+  <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/resto.jpg" width="500" alt="Главная страница Resto">
+</a>
 
 ---
 
